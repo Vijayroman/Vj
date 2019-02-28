@@ -4,19 +4,19 @@ class add
   {
   public static void main(String args[])
           {
-           int n;
-           Scanner n=new Scanner(System.in)
+           Scanner a=new Scanner(System.in);
+             int n=a.nextInt();
            if(n>0)
              {
-              System.out.println("The number is positive");
+              System.out.println("Positive");
               }
             elseif (n==0)
                {
-                System.out.println("The number is zero");
+                System.out.println("Zero");
                 }
             else
             {
-               System.out.println("The number is negative");
+               System.out.println("Negative");
                }
             }
      }    
